@@ -1,0 +1,54 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #202225;
+  }
+  
+  #navigation {
+    background-color: #2f3136;
+  }
+  
+  ul.site-navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #18191c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #36393f;
+  }
+  
+  .active {
+    background-color: #5865f2;
+  }
+  
+  .active:hover {
+    background-color: hsl(235, 86%, 60%);
+  }
